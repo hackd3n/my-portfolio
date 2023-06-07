@@ -89,7 +89,7 @@ function ProjectsMenu({ onItemClick }) {
                   <li>
                     <a href='https://medium.com/@dhack001/developing-a-stem-player-74781b9f5739' >
                       Stem Player
-                    </Link>
+                    </a>
                   </li>
                 </ul>
                 {activeIndex === 2 && <button onClick={resetProjectView}>Return</button>}
