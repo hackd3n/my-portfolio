@@ -80,7 +80,7 @@ const ProjectView = () => {
             </div>
             <div className="flex mt-4">
               <a
-                href={link}
+                href={link.link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-customGreen text-white underline m-2 mx-auto hover:text-black"
@@ -93,9 +93,9 @@ const ProjectView = () => {
       </div>
 
       <div className="flex text-center">
-        <button className="mx-auto bg-black text-white underline transition-color duration-300 hover:bg-customGreen" onClick={goBack}>
+        <Link className="mx-auto bg-black text-white underline transition-color duration-300 hover:bg-customGreen" to='/'>
           go back
-        </button>
+        </Link>
       </div>
     </div>
   );

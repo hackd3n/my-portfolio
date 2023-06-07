@@ -74,7 +74,7 @@ function ProjectsMenu({ onItemClick }) {
                   </li>
                   <li>
                     <Link to='/project/learner-portal'>
-                      Diversity and Ability
+                      Diversity and Ability - Learner Portal
                     </Link>
                   </li>
                 </ul>

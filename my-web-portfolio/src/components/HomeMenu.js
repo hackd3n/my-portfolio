@@ -23,6 +23,12 @@ function HomeMenu({ onItemClick }) {
                 </ul>
                 <img src={arrowRight} alt='arrow pointing left' className='w-[25px]' />
             </nav>
+            <nav>
+                <ul className='inline-flex gap-4'>
+                    <li><a href='https://www.linkedin.com/in/denis-h-293006121/'>linkedin</a></li>
+                    <li><a href='https://github.com/hackd3n/my-portfolio/tree/master/my-web-portfolio'>github</a></li>
+                </ul>
+            </nav>
         </div>
 
 
