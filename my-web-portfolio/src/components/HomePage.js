@@ -21,8 +21,8 @@ function HomePage() {
   };
 
   return (
-        <div className="flex m-auto p-10 space-x-10">
-        <div className="md:flex md:w-1/2 ">
+        <div className="md:flex m-auto p-4 md:p-10 md:space-x-10">
+        <div className="flex w-1/3 max-md:p-2 max-md:mx-auto md:w-1/2 ">
             <img src={myLogo} alt="my logo image of initials DH" className="object-contain mx-auto " />
         </div>
         <div className="md:w-1/2 place-content-center flex">

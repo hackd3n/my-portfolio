@@ -40,7 +40,7 @@ function App() {
           />
         ))}
       </div>
-      <div className="content bg-white md:w-[800px] md:h-[500px] m-auto flex overflow-hidden">
+      <div className="content bg-white md:w-[800px] h-[600px] md:h-[500px] m-auto flex overflow-hidden">
                
       <motion.div
                 initial={{ x: 100 }}

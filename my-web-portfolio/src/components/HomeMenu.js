@@ -16,10 +16,10 @@ function HomeMenu({ onItemClick }) {
             
             <nav className='m-auto w-full border-t-2 border-black mt-4 inline-flex place-content-center'>
                 <img src={arrowLeft} alt='arrow pointing right' className='w-[25px]'/>
-                <ul className='inline-flex w-full gap-2  p-4 justify-center items-center'>
-                    <li className='mx-auto ' onClick={onItemClick} >my projects</li>
-                    <Link to='/about'><li className='mx-auto'>about me</li></Link>
-                    <Link to='/contact'><li className='mx-auto'>contact me</li></Link>
+                <ul className='max-sm:space-x-2 md:inline-flex w-full gap-2  p-4 justify-center items-center'>
+                    <li className='mx-auto' onClick={onItemClick} >my projects</li>
+                    <Link to='/about'className='mx-auto '><li >about me</li></Link>
+                    <Link to='/contact'className='mx-auto'><li className='mx-auto'>contact me</li></Link>
                 </ul>
                 <img src={arrowRight} alt='arrow pointing left' className='w-[25px]' />
             </nav>
