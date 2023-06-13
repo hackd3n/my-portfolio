@@ -29,7 +29,7 @@ function AboutPage() {
           </p>
           <p>
             Before starting my Creative Computing studies at Goldsmiths University in London, I had
-            a background in marketing and content creation. I've utilized my creative skills in
+            a background in marketing and content creation. I've utilised my creative skills in
             developing marketing campaigns and creating engaging content across various platforms.
           </p>
           <p>
