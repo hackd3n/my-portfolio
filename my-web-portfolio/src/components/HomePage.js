@@ -22,10 +22,10 @@ function HomePage() {
 
   return (
         <div className="flex m-auto p-10 space-x-10">
-        <div className="flex w-1/2 ">
+        <div className="md:flex md:w-1/2 ">
             <img src={myLogo} alt="my logo image of initials DH" className="object-contain mx-auto " />
         </div>
-        <div className="w-1/2 place-content-center flex">
+        <div className="md:w-1/2 place-content-center flex">
             {showHomeMenu ? (
             <HomeMenu onItemClick={handleClick} />
             ) : (
